@@ -1,0 +1,10 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.cabecalho__img{
+    width: 10%;
+    height: 100%;
+}
