@@ -1,10 +1,48 @@
+body{
+    font-family: "Poppins";
+    color: black;
+}
 .cabecalho{
     display: flex;
     justify-content: space-between;
     height: 10vh;
+    background-color: #c2c2c2;
 }
 
 .cabecalho__img{
     width: 10%;
     height: 100%;
+}
+
+.lista-menu{
+    display: none;
+}
+
+.opcoes{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+}
+
+.opcoes__botao{
+    display: none;
+}
+
+.opcoes__item{
+    padding: 2em 1em;
+}
+
+a{
+    text-decoration: none; 
+    color: black;   
+}
+
+.opcoes__item{
+    cursor: pointer;
+}
+
+.busca{
+    margin-top: 2em;
+    width: 30em;
+    padding: 0.5em;
 }
