@@ -11,53 +11,30 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
         <link rel="stylesheet" href="styles.css">   
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link href="./assets/css/cabecalho.css" rel="stylesheet" />
+        <link href="./assets/css/logo.css" rel="stylesheet" />
+        <link href="./assets/css/banner.css" rel="stylesheet" />
+        <link href="./assets/css/menu.css" rel="stylesheet" />
+        <link href="./assets/css/carrossel.css" rel="stylesheet" />
     </head>
     <body>
-        <header>  <div class="cabecalho">
-            
-            <img class="cabecalho_img" src="img/logo_.jpeg" alt="Livro 1">
 
-            <!-- <div class="cabecalho__busca">
-                <input type="text" value="" class="busca">
-                <button class="cabecalho__busca-lupa"></button>
-            </div> -->
-
-            <ul class="opcoes">
-                <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
-                <label for="opcoes-menu" class="opcoes__rotulo">
-                <li class="opcoes__item">CATEGORIAS</li>
-                </label>
-    
-                <ul class="lista-menu">
-                    <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Cartao de visita</a>
-                    </li>
-                    <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Folheto</a>
-                    </li>
-                    <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Folders</a>
-                    </li>
-                    <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Adesivos</a>
-                    </li>
-                    <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Banners</a>
-                    </li>
+        <header class="cabecalho">
+            <img class="logo" alt="Fruta e Fruto" src="./assets/img/logo_.jpeg"/>
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link ativo" href="#" >Início</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Receitas</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Quem somos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Comunidade</a></li>
                 </ul>
-    
-                <li class="opcoes__item"><a href="#" class="opcoes__link">FAVORITOS</a></li>
-                <li class="opcoes__item"><a href="#" class="opcoes__link">MEU CARRINHO</a></li>
-            </ul>
-
-
-        </div>
-    </header>
-
+            </nav>
+        </header>
+        
     <section class="banner">
         <h2 class="banner__titulo">Já sabe por onde começar?</h2>
         <p class="banner__texto">Encontre em nosso site o que precisa para seu negócio!</p>
-        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+        <input type="search" class="banner__pesquisa" placeholder="Digite o que precisa">
     </section>
 
         <section class="carrossel">
@@ -71,12 +48,30 @@
     
                 <div class="swiper-wrapper">
                   <!-- Slides -->
-                  <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro 1"></div>
-                  <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro 2"></div>
-                  <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro 3"></div>
-                  <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro 4"></div>
-                  <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro 5"></div>
-                  <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Livro 6"></div>
+                  <div class="swiper-slide">
+                    <p class="swiper-txt">Calendários</p>
+                    <img src="./assets/img/calendario.jpg" alt="Calendário">
+                    </div>
+                  <div class="swiper-slide">
+                    <p class="swiper-txt">Cartões</p>
+                    <img src="./assets/img/cartao.jpg" alt="cartao">
+                    </div>
+                  <div class="swiper-slide">
+                    <p class="swiper-txt">Envelopes</p>
+                    <img src="./assets/img/envelope.jpg" alt="Livro 3">
+                    </div>
+                  <div class="swiper-slide">
+                    <p class="swiper-txt">Mouse-pads</p>
+                    <img src="./assets/img/mousepad.png" alt="Livro 4">
+                    </div>
+                  <div class="swiper-slide">
+                    <p class="swiper-txt">Pastas</p>
+                    <img src="./assets/img/pasta.png" alt="Livro 5">
+                </div>
+                  <div class="swiper-slide">
+                    <p class="swiper-txt">Sacolas</p>
+                    <img src="./assets/img/sacola.png" alt="Livro 6">
+                </div>
                 </div>
               
                 <!-- If we need navigation buttons -->

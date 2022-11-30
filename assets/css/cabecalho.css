@@ -1,13 +1,8 @@
- body{
-    font-family: "Poppins";
-    color: black;
-}
-/*.cabecalho{
+.cabecalho{
     display: flex;
     justify-content: space-between;
     height: 10vh;
-    background-color: #f9f9f9;
-    
+    background-color: #f9f9f9;    
 }
 
 .cabecalho__img{
@@ -46,4 +41,18 @@ a{
     margin-top: 2em;
     width: 30em;
     padding: 0.5em;
-} */
+}
+
+@media screen and (min-width: 0){
+    .cabecalho {
+        justify-content: center;
+        padding: 0 1em;
+    }
+}
+
+@media screen and (min-width: 765px) {
+    .cabecalho{
+        padding: 0 1rem;
+        justify-content: space-between;
+    }    
+}
