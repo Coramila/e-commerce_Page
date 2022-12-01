@@ -1,4 +1,5 @@
-.carrossel__titulo{
+.carrossel-titulo{
+    font-family: 'Poppins';
     color: #00AFF0;
     background-color: white;
     text-align: center;
@@ -27,9 +28,13 @@
     margin: 0.5em 0;
 }
 
+.swiper{
+    width: 90%;
+} 
+
 @media screen and (min-width: 1024px) {
 
-    .carrossel__titulo{
+    .carrossel-titulo{
         font-size: 26px;
     }
 
@@ -37,17 +42,13 @@
         margin: 2em 0 3em 0;
     }
 
-   .swiper{
-        width: 60%;
-    } 
-
    .swiper-button-prev, .swiper-button-next{
         display: block;
         top: 60%;
     }}
 
     @media screen and (min-width: 1728px) {
-        .carrossel__container{
+        .carrossel-container{
             display: flex;
             margin: 0 20vw 3em 20vw;
             align-items: center;
@@ -57,6 +58,4 @@
             margin: 1em 0;
         }
     
-        .swiper{
-            width: 50%;
-        } }
+       } 

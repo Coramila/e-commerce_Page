@@ -1,28 +1,28 @@
-.menu__item{
+.menu-item{
     list-style: none;
 }
 
-.menu__item:last-child .menu__link{
+.menu-item:last-child .menu-link{
     margin-right: 0;
 }
 
-.menu__link{
+.menu-link{
     text-decoration: none;
     color: #808080;
     text-transform: lowercase;
     margin-right: 1.25rem;
 }
 
-.menu__link:hover{
+.menu-link:hover{
     text-decoration: underline;
 }
 
-.menu__link.ativo{
+.menu-link.ativo{
     color: #333333;
     font-weight: bold;
 }
 
-.menu__lista{
+.menu-lista{
     display: flex;
     padding-top: 2em;
 }
