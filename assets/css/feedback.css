@@ -27,7 +27,7 @@
     font-weight: 200;
 }
 
-.feedback-nome{
+.feedback-nome{ 
     color: #00AFF0;
     font-size: 16px;
 }
@@ -46,7 +46,6 @@ min-width: 238px;
          min-width: 50%;
      }
 };
-
 @media and screen (max-width: 500px) { 
      .swiper-slide {
          min-width: 100%;
