@@ -1,12 +1,12 @@
 
 .rodape{
     background-color: white;
-    padding: 1rem 8rem 1rem 8rem;
+    padding: auto 1rem;
     display: flex;
     font-family: 'Poppins';
     flex-direction: row;
     font-size: 12px;
-    justify-content: space-between;
+    justify-content: space-between; 
     color: #00AFF0;
 }
 
@@ -14,3 +14,18 @@
     text-transform: uppercase;    
     font-size: 16px;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+        padding: 3em;
+    }
+}
+ @media screen and (min-width: 765px) {
+    .rodape{
+        padding: 1rem 8rem 1rem 8rem;
+        justify-content: space-between;
+    }    
+} 

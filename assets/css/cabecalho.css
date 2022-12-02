@@ -9,38 +9,10 @@
     scale: calc(0.5); 
 }
 
-/* .lista-menu{
-    display: none;
-}
-
-.opcoes{
-    display: flex;
-    justify-content: space-around;
-    font-weight: 600;
-}
-
-.opcoes__botao{
-    display: none;
-}
-
-.opcoes__item{
-    padding: 2em 1em;
-} */
-
 a{
     text-decoration: none; 
     color: black;   
 }
-
-/* .opcoes__item{
-    cursor: pointer;
-} */
-
-/* .busca{
-    margin-top: 2em;
-    width: 30em;
-    padding: 0.5em;
-} */
 
 @media screen and (min-width: 0){
     .cabecalho {
