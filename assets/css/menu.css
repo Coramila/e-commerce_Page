@@ -1,5 +1,6 @@
 .menu-item{
     list-style: none;
+
 }
 
 .menu-item:last-child .menu-link{
@@ -9,7 +10,7 @@
 .menu-link{
     text-decoration: none;
     color: #808080;
-    text-transform: lowercase;
+    text-transform: uppercase;
     margin-right: 1.25rem;
 }
 
@@ -27,3 +28,16 @@
     padding-top: 2em;
     padding-right: 3rem;
 }
+
+@media screen and (min-width: 0){
+    .menu-lista {
+        padding-left: 3rem;
+    }
+}
+
+/* @media screen and (min-width: 765px) {
+    .cabecalho{
+        padding: 0 1rem;
+        justify-content: space-between;
+    }    
+} */
