@@ -1,13 +1,17 @@
 
 .rodape{
     background-color: white;
-    padding: auto 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
     font-family: 'Poppins';
     flex-direction: row;
     font-size: 12px;
     justify-content: space-between; 
     color: #00AFF0;
+
 }
 
 .rodape-titulo{
