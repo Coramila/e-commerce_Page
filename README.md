@@ -17,9 +17,12 @@ This page was developed by stimulating the first page of an e-commerce. This is 
 
 ### Screenshot
 
-![image](https://user-images.githubusercontent.com/78424298/205322683-7aaf7a51-8198-49df-8261-ebd6b38a9dcc.png)
 ![image](https://user-images.githubusercontent.com/78424298/205322615-7c1bd0d8-472d-4dfd-a98e-b0ac72e025bc.png)
+![image](https://user-images.githubusercontent.com/78424298/205322683-7aaf7a51-8198-49df-8261-ebd6b38a9dcc.png)
 ![image](https://user-images.githubusercontent.com/78424298/205322850-afe6749b-cdaf-48bf-b145-3e2a2151a21b.png)
+![image](https://user-images.githubusercontent.com/78424298/205323048-33500ee7-315f-4790-9b75-3aeebc9ee593.png)
+![image](https://user-images.githubusercontent.com/78424298/205323108-0efdc399-ca69-4189-972d-f010b4421dd8.png)
+
 
 
 ### Built with
