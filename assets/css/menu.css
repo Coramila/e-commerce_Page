@@ -25,4 +25,5 @@
 .menu-lista{
     display: flex;
     padding-top: 2em;
+    padding-right: 3rem;
 }

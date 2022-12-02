@@ -5,12 +5,11 @@
     background-color: #f9f9f9;    
 }
 
-.cabecalho__img{
-    width: 10%;
-    height: 100%;
+.cabecalho-logo{
+    scale: calc(0.5); 
 }
 
-.lista-menu{
+/* .lista-menu{
     display: none;
 }
 
@@ -26,22 +25,22 @@
 
 .opcoes__item{
     padding: 2em 1em;
-}
+} */
 
 a{
     text-decoration: none; 
     color: black;   
 }
 
-.opcoes__item{
+/* .opcoes__item{
     cursor: pointer;
-}
+} */
 
-.busca{
+/* .busca{
     margin-top: 2em;
     width: 30em;
     padding: 0.5em;
-}
+} */
 
 @media screen and (min-width: 0){
     .cabecalho {
